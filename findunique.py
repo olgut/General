@@ -1,3 +1,4 @@
+# finds the unique element of a given array
 def findunique(array):
     if len(array)==1:
         return array
