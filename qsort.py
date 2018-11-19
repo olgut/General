@@ -8,7 +8,7 @@ def quicksort(arr):
     print(left)
     print(middle)
     print(right)
-    print("loop number = ")
+    print("loop number = X")
     return quicksort(left) + middle + quicksort(right)
 
-print(quicksort([3,6,8,10,11,1,2,1]))
+print('\r\nResult = ', quicksort([3,6,8,10,11,1,2,1]))
